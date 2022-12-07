@@ -17,3 +17,5 @@ steps:
       npx renovate
     env:
       TOKEN: $(PAT)
+      GITHUB_COM_TOKEN: $(PAT)
+      RENOVATE_TOKEN: $(PAT)
